@@ -12,4 +12,4 @@ mysqldump -uroot -pPassword DATABASE_NAME TABLE1 TABLE2 TABLE3 | ssh root@188.34
 
 # Full Raw Data Transfer Fastest
 
-cd /var/lib/mysql/ && scp -r ./*  root@REMOTE_IP:/var/lib/mysql/
+``` cd /var/lib/mysql/ && scp -r ./*  root@REMOTE_IP:/var/lib/mysql/ ```
